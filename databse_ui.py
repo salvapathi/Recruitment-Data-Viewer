@@ -104,7 +104,7 @@ def main():
 
     # Validate phone number if Mobile_No is selected
     if search_criteria == "Mobile_No" and criteria_value and not validate_phone_number(criteria_value):
-        st.warning("Please enter a valid 10-digit phone number.")
+        st.warning("Please enter a valid 10-digit phone postive number .")
 
     # Debugging information
     st.write(f"{search_criteria} Entered: {criteria_value}")
